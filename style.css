@@ -11,10 +11,16 @@ body {
 header {
     background: url('images/background.jpg') no-repeat center center;
     background-size: cover;
-    color: white;
+    color: #111; /* ✅ 글자색을 어두운 색으로 변경 */
     text-align: center;
     padding: 100px 0;
     font-size: 1.5em;
+}
+
+/* 헤더 안의 제목 (Heewon) 스타일 */
+header h1 {
+    color: #000; /* ✅ 제목을 검정색으로 */
+    font-weight: bold;
 }
 
 /* 네비게이션 스타일 */
@@ -28,10 +34,11 @@ nav ul li {
     margin: 0 15px;
 }
 
+/* 네비게이션 메뉴 (About, Projects 등) */
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: #222 !important; /* ✅ 네비게이션 글자 색 어둡게 */
     font-weight: bold;
+    text-decoration: none;
 }
 
 /* 섹션 기본 스타일 */
