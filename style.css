@@ -52,3 +52,29 @@ header {
     padding: 150px 0;
     font-size: 1.5em;
 }
+
+/* 📌 섹션 전체에 좌우 여백 추가 */
+section {
+    max-width: 900px;
+    margin: 50px auto; /* ✅ 자동 중앙 정렬 + 여백 추가 */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 📌 Contact 섹션 스타일 */
+#contact p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
