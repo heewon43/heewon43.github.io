@@ -122,8 +122,10 @@ section {
 /* 퍼센트 텍스트 */
 .circle span {
     position: absolute;
-    color: white;
+    color: #000000; /* ✅ 퍼센트 값도 검은색으로 변경 */
+    font-weight: bold;
 }
+
 
 /* 스킬명 텍스트 스타일 */
 .circle p {
