@@ -92,7 +92,9 @@ section {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center; /* ✅ 모든 섹션과 동일한 타이틀 정렬 */
 }
+
 
 
 /* ===== 원형 그래프 스타일 ===== */
