@@ -125,14 +125,14 @@ section {
     color: white;
 }
 
-/* 스킬명 */
+/* 스킬명 텍스트 스타일 */
 .circle p {
-    position: absolute;
-    bottom: -30px;
+    position: relative; /* ✅ 겹치지 않도록 변경 */
+    margin-top: 10px;  /* ✅ 위쪽 여백 추가 */
     width: 100%;
     text-align: center;
     font-size: 14px;
-    color: white;
+    color: #000000; /* ✅ 텍스트 색상을 검은색으로 변경 */
 }
 
 /* 원형 그래프 안쪽 배경 */
