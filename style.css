@@ -132,16 +132,34 @@ section {
 
 
 
-/* 스킬명 텍스트 스타일 */
-.circle p {
-    position: relative; /* ✅ 겹치지 않도록 변경 */
-    margin-top: 15px; /* ✅ 원형 그래프 아래로 간격 추가 */
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
-    color: #000000; /* ✅ 텍스트 색상을 검은색으로 변경 */
-    font-weight: bold;
+/* 원형 그래프를 포함하는 skill-item 정렬 */
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* ✅ 원형 그래프 + 텍스트 중앙 정렬 */
+    margin: 15px;
 }
+
+/* 원형 그래프 내부 퍼센트 값 중앙 정렬 */
+.circle span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* 원형 그래프 아래에 스킬 이름 위치 */
+.skill-item p {
+    margin-top: 10px; /* ✅ 원형 그래프 아래로 간격 추가 */
+    font-size: 14px;
+    color: #000000; /* ✅ 글자 색 검은색으로 변경 */
+    font-weight: bold;
+    text-align: center;
+}
+
 
 
 /* 원형 그래프 안쪽 배경 */
