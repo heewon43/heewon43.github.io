@@ -4,45 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heewon's Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- 헤더 (메뉴) -->
-    <header>
-        <h1>Heewon</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <!-- 네비게이션 바 -->
+    <nav>
+        <ul>
+            <li><a href="#home" class="active">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#recommendations">RECOMMENDATIONS</a></li>
+            <li><a href="#certifications">PUBLICATIONS & CERTIFICATIONS</a></li>
+        </ul>
+    </nav>
+
+    <!-- 배경 이미지 포함 섹션 -->
+    <header id="home">
+        <h1>Welcome to My Portfolio</h1>
     </header>
 
-    <!-- 소개 섹션 -->
+    <!-- About 섹션 -->
     <section id="about">
         <h2>About Me</h2>
         <p>데이터 분석가 | 머신러닝 & AI 기반 추천 시스템</p>
-        <img src="images/profile.jpg" alt="My Profile" width="200">
     </section>
 
-    <!-- 프로젝트 섹션 -->
+    <!-- Education 섹션 -->
+    <section id="education">
+        <h2>Education</h2>
+        <p>내 학력 정보</p>
+    </section>
+
+    <!-- Experience 섹션 -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>내 경력 정보</p>
+    </section>
+
+    <!-- Projects 섹션 -->
     <section id="projects">
         <h2>Projects</h2>
         <ul>
-            <li><a href="projects.html">📊 데이터 분석 프로젝트</a></li>
-            <li><a href="projects.html">🤖 머신러닝 모델링</a></li>
-            <li><a href="projects.html">🔍 추천 시스템 구축</a></li>
+            <li>📊 데이터 분석 프로젝트</li>
+            <li>🤖 머신러닝 모델링</li>
+            <li>🔍 추천 시스템 구축</li>
         </ul>
     </section>
 
-    <!-- 연락처 섹션 -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: drave11@naver.com</p>
-        <p>GitHub: <a href="https://github.com/heewon43" target="_blank">github.com/heewon43</a></p>
+    <!-- Skills 섹션 -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Python, SQL, Machine Learning, Deep Learning, FastAPI, AWS</p>
+    </section>
+
+    <!-- Recommendations 섹션 -->
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <p>추천받은 내용</p>
+    </section>
+
+    <!-- Publications & Certifications 섹션 -->
+    <section id="certifications">
+        <h2>Publications & Certifications</h2>
+        <p>논문 및 자격증 정보</p>
     </section>
 
 </body>
