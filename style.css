@@ -82,10 +82,11 @@ section {
 /* ===== Skills 섹션 스타일 ===== */
 #skills {
     text-align: center;
-    background-color: #1b1b1b; /* 어두운 배경 */
-    color: white;
+    background-color: #ffffff; /* ✅ 배경을 흰색으로 변경 */
+    color: #333; /* ✅ 글자 색을 어두운 색으로 변경 */
     padding: 50px 20px;
 }
+
 
 #skills h2, #skills h3 {
     font-size: 24px;
