@@ -93,34 +93,6 @@ section {
     margin-bottom: 20px;
 }
 
-/* ===== 막대 그래프 스타일 ===== */
-.skills-container {
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-.skill {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 15px;
-}
-
-.skill-bar {
-    width: 70%;
-    height: 8px;
-    background-color: #333;
-    border-radius: 5px;
-    overflow: hidden;
-    margin: 0 10px;
-}
-
-.skill-fill {
-    height: 100%;
-    background-color: #6FCF97;
-    border-radius: 5px;
-}
 
 /* ===== 원형 그래프 스타일 ===== */
 .circular-skills {
