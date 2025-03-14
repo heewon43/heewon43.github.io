@@ -1,18 +1,23 @@
+/* 전체 페이지 스타일 */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    margin: 0;
 }
 
+/* 헤더 스타일 (배경 이미지 적용) */
 header {
-    background: #333;
+    background: url('images/background.jpg') no-repeat center center;
+    background-size: cover;
     color: white;
-    padding: 10px;
     text-align: center;
+    padding: 100px 0;
+    font-size: 1.5em;
 }
 
+/* 네비게이션 스타일 */
 nav ul {
     list-style: none;
     padding: 0;
@@ -20,23 +25,67 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
+/* 섹션 기본 스타일 */
 section {
+    max-width: 900px;
+    margin: 50px auto;
     padding: 20px;
-    margin: 20px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-img {
-    border-radius: 50%;
+/* 프로젝트 목록 스타일 */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #eee;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 버튼 스타일 */
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
     margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* 연락처 스타일 */
+#contact p {
+    font-size: 1.2em;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    header {
+        font-size: 1.2em;
+        padding: 60px 0;
+    }
+
+    section {
+        margin: 20px;
+        padding: 15px;
+    }
 }
